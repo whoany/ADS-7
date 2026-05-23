@@ -12,8 +12,7 @@ int main() {
     count = n;
     while (count--)
       tOff.addCar(false);
-    tOff.getLength();
-    
+    tOff.getLength(); 
     Train tOn;
     count = n;
     while (count--)
@@ -29,7 +28,6 @@ int main() {
       sum += tRnd.getOpCount();
     }
     double avg = sum / 30.0;
-   
   std::cout << n << "," << tOff.getOpCount() << ","
               << tOn.getOpCount() << "," << avg << std::endl;
   }
