@@ -6,7 +6,6 @@
 int main() {
   std::cout << "n,all_off,all_on,random_avg" << std::endl;
   std::srand(1);
- 
   for (int n = 10; n <= 500; n += 10) {
     int count;
     Train tOff;
@@ -30,7 +29,7 @@ int main() {
     }
     double avg = sum / 30.0;
    
-    std::cout << n << "," << tOff.getOpCount() << ","
+  std::cout << n << "," << tOff.getOpCount() << ","
               << tOn.getOpCount() << "," << avg << std::endl;
   }
   return 0;
