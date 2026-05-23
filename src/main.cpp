@@ -13,6 +13,7 @@ int main() {
     while (count--)
       tOff.addCar(false);
     tOff.getLength();
+    
     Train tOn;
     count = n;
     while (count--)
