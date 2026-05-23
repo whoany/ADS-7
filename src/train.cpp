@@ -31,7 +31,6 @@ int Train::getLength() {
     p = p->next;
     ++steps;
     ++countOp;
-   
     if (p->light) {
       p->light = false;
       for (int i = 0; i < steps; ++i) {
